@@ -53,6 +53,9 @@ PUT products-with-custom-analyzer
   },
   "mappings": {
     "properties": {
+      "id": {
+          "type": "long"
+      },
       "description": {
         "type": "text",
         "analyzer": "custom_analyzer"
